@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator | Ethical Hacker Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Terminal Navigation -->
+    <nav class="navbar">
+        <div class="logo">ROOT@PORTFOLIO:~#</div>
+        <ul class="nav-links">
+            <li><a href="#about">/about</a></li>
+            <li><a href="#skills">/skills</a></li>
+            <li><a href="#github">/github</a></li>
+            <li><a href="#labs">/labs</a></li>
+            <li><a href="#contact">/contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Your Name">Your Name</h1>
+            <p class="typewriter">Ethical Hacker | Offensive Security Practitioner</p>
+            <div class="hero-cta">
+                <a href="#github" class="btn">View Repositories</a>
+                <a href="#labs" class="btn secondary">Read Writeups</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">01. About_Me</h2>
+        <div class="terminal-box">
+            <p><span class="prompt">>>></span> Ethical hacker focused on penetration testing and network security. I practice legally, document everything, and build tools to understand systems deeply. Focused on the transition from "running tools" to "understanding protocols."</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">02. Technical_Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Networking</h3>
+                <ul>
+                    <li>TCP/IP & OSI Model</li>
+                    <li>DNS/HTTP/S Security</li>
+                    <li>Wi-Fi Penetration</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Offensive</h3>
+                <ul>
+                    <li>Active Reconnaissance</li>
+                    <li>Privilege Escalation</li>
+                    <li>Exploit Research</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tooling</h3>
+                <ul>
+                    <li>Nmap / Burp Suite</li>
+                    <li>Metasploit / Wireshark</li>
+                    <li>Python / Bash / Linux</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Section (Dynamic) -->
+    <section id="github" class="section">
+        <h2 class="section-title">03. GitHub_Dominance</h2>
+        <div class="github-stats">
+            <!-- Replace 'username' with your actual GitHub username -->
+            <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" alt="GitHub Stats">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" alt="Top Languages">
+        </div>
+        
+        <div class="repo-grid">
+            <!-- Manually highlighted high-value repos -->
+            <div class="repo-card">
+                <h4><i class="fab fa-github"></i> Recon-Automation-Tool</h4>
+                <p>Python script for automated subdomain enumeration and port scanning.</p>
+                <div class="tags"><span>Python</span><span>Nmap</span><span>API</span></div>
+            </div>
+            <!-- Add more repo cards here -->
+        </div>
+    </section>
+
+    <!-- Terminal Signature Section -->
+    <section class="terminal-container">
+        <div class="terminal-header">bash — 80x24</div>
+        <div class="terminal-body" id="terminal">
+            <div class="line"><span class="prompt">guest@portfolio:~$</span> whoami</div>
+            <div class="line">ethical_hacker</div>
+            <div class="line"><span class="prompt">guest@portfolio:~$</span> ls skills/</div>
+            <div class="line">recon  exploitation  scripting  networking</div>
+            <div class="line"><span class="prompt">guest@portfolio:~$</span> <span class="cursor">_</span></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 | Encrypted Connection Established</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
